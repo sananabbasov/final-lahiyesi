@@ -1,0 +1,175 @@
+header #top-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 60px;
+  background-color: #1A2B48;
+  color: #D1D4DA;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+header #top-header span.icons {
+  margin-right: 5px;
+  border-right: 1px solid #D1D4DA;
+}
+
+header #top-header span.icons .fab {
+  margin-right: 15px;
+}
+
+header #top-header span.info {
+  margin-left: 15px;
+}
+
+header #top-header .top-left-ico {
+  float: left;
+}
+
+header .top-right span.right-number {
+  padding-right: 15px;
+  border-right: 1px solid #D1D4DA;
+}
+
+header .top-right span.right-login {
+  margin-left: 15px;
+  padding-right: 15px;
+  border-right: 1px solid #D1D4DA;
+}
+
+header .top-right span.right-sing-up {
+  margin-left: 15px;
+  padding-right: 15px;
+  border-right: 1px solid #D1D4DA;
+}
+
+header .top-right span.right-curret {
+  margin-left: 15px;
+  padding-right: 15px;
+  border-right: 1px solid #D1D4DA;
+}
+
+header #navbar {
+  background-image: url(../../img/bg.jpg);
+  width: 100%;
+  height: 450px;
+}
+
+header #navbar .navbar {
+  padding: 1rem 3rem;
+}
+
+header #navbar .navbar .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header #navbar .navbar .navbar-nav ul li {
+  list-style: none;
+  float: left;
+  padding-right: 50px;
+  margin-top: 20px;
+}
+
+header #navbar .navbar .navbar-nav ul li:hover .mega-menu {
+  visibility: visible;
+}
+
+header #navbar .navbar .navbar-nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+}
+
+header #navbar .navbar .navbar-nav ul li .mega-menu {
+  background-color: #ffffff;
+  position: absolute;
+  top: 70%;
+  left: 24.4%;
+  width: 48%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  visibility: hidden;
+}
+
+header #navbar .navbar .navbar-nav ul li .mega-menu .mega-list p {
+  margin: 5px;
+  margin-bottom: 1rem;
+}
+
+header #navbar .navbar .navbar-nav ul li .mega-menu .mega-list p a {
+  color: #000;
+  font-size: 15px;
+}
+
+header #navbar .navbar .navbar-nav ul li .mega-menu .mega-list .mega-p {
+  color: #000;
+  border-left: 2px solid #5191fa;
+  padding-left: 10px;
+}
+
+header #navbar .navbar-right {
+  color: #ffffff;
+}
+
+header #navbar .navbar-right .btn-orange {
+  background-color: #fa5636;
+  color: #ffffff;
+  margin: 0px 25px;
+}
+
+header .center-container {
+  padding: 2rem 6rem;
+  margin: auto;
+  color: #ffffff;
+}
+
+/* Booking Area */
+.booking-area .tab-content {
+  background-color: #ffffff;
+  color: #5191fa;
+  padding: 1px;
+  margin-top: 1px;
+  border-radius: 0px 5px 7px 7px;
+}
+
+button {
+  background-color: #1A2B48;
+  border: none;
+  border-radius: 5px 5px 0px 0px;
+  margin: -1px;
+  color: #ffffff;
+  padding: 8px 25px;
+}
+
+.booking-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.booking-info .btn-blue {
+  background-color: #5191fa;
+  color: #ffffff;
+  padding: 20px 50px;
+}
+
+.booking-info .tabs-ico {
+  padding-top: 15px;
+}
+/*# sourceMappingURL=style.css.map */
