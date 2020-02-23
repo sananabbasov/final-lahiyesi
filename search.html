@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="vendors/css/style.css">
+    <script src="https://kit.fontawesome.com/c51ee03339.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div id="top-header">
+            <div class="top-left">
+                <div class="top-left-ico">
+                    <span class="icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </span>
+                    <span class="info">
+                        contact@shinetheme.com
+                    </span>
+                </div>
+            </div>
+            <div class="top-right">
+                <span class="right-number">
+                    (000) 999 - 656 -888
+                </span>
+                <span class="right-login">
+                    Login
+                </span>
+                <span class="right-sing-up">
+                    Sign Up
+                </span>
+                <span class="right-curret">
+                    Euro <i class="fas fa-chevron-down"></i>
+                </span>
+            </div>
+        </div>
+
+
+        <div class="menu-about-us">
+            <nav class="navnar-menu" id="navID">
+                <button type="button" class="toggle-menu" onclick="myFnc(this)" id="button-toggle">
+                    <span>
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+                <ul class="mt-3">
+                    <img src="img/mix_logo-2.svg" alt="">
+                </ul>
+                <ul class="side-nav mt-3">
+                    <li class="nav-link">
+                        <a href="#" class="link-name">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="nav-name">Hotel</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="nav-name">Tour</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="nav-name">Activity</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="nav-name">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="nav-name">Home</a>
+                    </li>
+                </ul>
+                <div class="navbar-right mt-3">
+                    <i class="fas fa-shopping-basket"></i>
+
+                    <button class="btn btn-orange">
+                        Become Local Expert
+                    </button>
+                    <i class="fas fa-search"></i>
+                </div>
+            </nav>
+            <div class="text-name">
+                <h1>About Us</h1>
+            </div>
+        </div>
+
+
+
+    </header>
+    <div  class="container">
+        <div class="row">
+            <div style="border-left: 3px solid #5191FA; padding-top:8px ;" class="col-md-3">
+                <h6>FILTER BY</h6>
+            </div>
+
+            <div class="col-md-6">
+                <h3>San Francisco: 20 hotels found</h3>
+            </div>
+            <div class="col-md-3">
+                <div class="sort">  <ul>
+                    <li class="drop-menu"><a style="color: #1A2B48;text-decoration: none;" href="#">Sort<i class="fas fa-chevron-down open"></i></a><ul class="dropped-menu" style="position: absolute;z-index: 989898;background-color: white;">
+                        <li><p>SORT BY</p></li>
+                        <li><input type="radio"><a href="#">New hotel</a></li>
+                        <li><p style="color: #ADB2BD;;">Price</p></li>
+                        <li><input type="radio"><a href="#">Low to High</a></li>
+                        <li><input type="radio"><a href="#">High to Low</a></li>
+                        <li><p style="color: #ADB2BD;;">Name</p></li>
+                        <li><input type="radio"><a href="#">a-z</a></li>
+                        <li><input type="radio"><a href="#">z-a</a></li>
+                    </ul></li>
+                </ul></div>
+                
+              
+            </div>
+        </div>
+        
+        <div style="z-index: 878;position: relative;" class="hotelleft-right row">
+           <div class="col-md-3">
+               <div class="hotel-left">
+                
+                    <div class="filter-price">
+                        <div class="row">
+                            <p  style="padding-left: 17px;">Filter Price</p>
+                            <i class="fas fa-chevron-down open"></i>
+                            <i class="fas fa-angle-up close"></i>
+                        </div>
+                    
+                        <div class="active-filter">
+                            <a href="#">APPLY</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="review-score">
+                        <div class="row">
+                            <p  style="padding-left: 17px;">Review Score</p>
+                            <i class="fas fa-chevron-down"></i>
+
+                        </div>
+                        <div class="active-review">
+                            <p><input type="checkbox"> Excelent</p>
+                        <p><input type="checkbox">Very Good</p>
+                        <p><input type="checkbox">Average</p>
+                        <p><input type="checkbox">Poor</p>
+                        <p><input type="checkbox">Terrible</p>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="hotel-star">
+                        <div class="row">
+                            <p style="padding-left: 17px;">Hotel Star</p>
+                            <div class="open"><i class="fas fa-chevron-down open"></i></div>
+
+
+                        </div>
+                        <div class="star"><p><input type="checkbox"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                            <p><input type="checkbox"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                            <p><input type="checkbox"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                            <p><input type="checkbox"><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                            <p><input type="checkbox"><i class="fas fa-star"></i></p></div>
+                    </div>
+
+                    <div class="facilities">
+                        <div class="row">
+                            <p style="padding-left: 17px;">Facilities</p>
+                            <i class="fas fa-chevron-down open"></i>
+                            
+                        </div>
+                        <div class="active-facilities">
+                            <p><input type="checkbox">Air Conditioning</p>
+                            <p><input type="checkbox">Airport Transport</p>
+                            <p><input type="checkbox">Fitness Center</p>
+                            <div class="facilities-down">
+                                <a href="#">More<i class="fas fa-caret-down"></i></a>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+
+
+                    <div class="hotel-theme">
+                        <div class="row">
+                            <p  style="padding-left: 17px;">Hotel Theme</p>
+                            <i class="fas fa-chevron-down open"></i>
+                            
+
+                        </div>
+                        <div class="active-hotel">
+                            <p><input type="checkbox">Best value</p>
+                            <p><input type="checkbox">Boutique</p>
+                            <p><input type="checkbox">Budget</p>
+                            <div class="facilities-down">
+                                <a href="#">More<i class="fas fa-caret-down"></i></a>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                    
+                        
+                
+               </div>
+               
+
+           </div>
+           <div class="col-md-9">
+               <div class="hotel-right row">
+                   <div class="col-md-4"><div class="hotelrightimage-text">
+                       <div class="image">
+                           <img class="img-fluid" src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/167411799-680x630.jpg" alt="">
+                           <div class="image-header"><div class="row"><div class="col-md-5"><p>Featured</p></div><div class="col-md-3">  <i class="fas fa-heart"></i></div></div>
+                           </div>
+                           <div class="image-footer">
+                            <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                       
+                           </div>
+                           
+                       </div>
+                       <div class="hotelright-text">
+                           <a href="#">EnVision Hotel Boston</a>
+                           <p><i class="fas fa-map-marker-alt"></i>Boston, MA, USA</p>
+                           <p><span style="color: #19A1E5;"> 3.7/5 Very Good</span>|
+                            <span>3 Reviews</span>
+                            </p>
+                            <p><i class="fas fa-bolt"></i><span>From</span><span>€244,00
+                            </span><span>/night</span></p>
+                       </div>
+                   </div></div>
+                   <div class="col-md-4"><div class="hotelrightimage-text">
+                    <div class="image">
+                        <img class="img-fluid" src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/74264099-680x630.jpg" alt="">
+                        <div class="image-header"><div class="row"><div class="col-md-5"><p>Featured</p></div><div class="col-md-3">  <i class="fas fa-heart"></i></div></div>
+                        </div>
+                        <div class="image-footer">
+                         <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    
+                        </div>
+                        
+                    </div>
+                    <div class="hotelright-text">
+                        <a href="#">EnVision Hotel Boston</a>
+                        <p><i class="fas fa-map-marker-alt"></i>Boston, MA, USA</p>
+                        <p><span style="color: #19A1E5;"> 3.7/5 Very Good</span>|
+                         <span>3 Reviews</span>
+                         </p>
+                         <p><i class="fas fa-bolt"></i><span>From</span><span>€244,00
+                         </span><span>/night</span></p>
+                    </div>
+                </div></div>
+                   <div class="col-md-4"><div class="hotelrightimage-text">
+                    <div class="image">
+                        <img class="img-fluid" src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/169474401-680x630.jpg" alt="">
+                        <div class="image-header"><div class="row"><div class="col-md-5"><p>Featured</p></div><div class="col-md-3">  <i class="fas fa-heart"></i></div></div>
+                        </div>
+                        <div class="image-footer">
+                         <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    
+                        </div>
+                        
+                    </div>
+                    <div class="hotelright-text">
+                        <a href="#">EnVision Hotel Boston</a>
+                        <p><i class="fas fa-map-marker-alt"></i>Boston, MA, USA</p>
+                        <p><span style="color: #19A1E5;"> 3.7/5 Very Good</span>|
+                         <span>3 Reviews</span>
+                         </p>
+                         <p><i class="fas fa-bolt"></i><span>From</span><span>€244,00
+                         </span><span>/night</span></p>
+                    </div>
+                </div></div>
+                <div class="col-md-4"><div class="hotelrightimage-text">
+                    <div class="image">
+                        <img class="img-fluid" src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/60337007-680x630.jpg" alt="">
+                        <div class="image-header"><div class="row"><div class="col-md-5"><p>Featured</p></div><div class="col-md-3">  <i class="fas fa-heart"></i></div></div>
+                        </div>
+                        <div class="image-footer">
+                         <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    
+                        </div>
+                        
+                    </div>
+                    <div class="hotelright-text">
+                        <a href="#">EnVision Hotel Boston</a>
+                        <p><i class="fas fa-map-marker-alt"></i>Boston, MA, USA</p>
+                        <p><span style="color: #19A1E5;"> 3.7/5 Very Good</span>|
+                         <span>3 Reviews</span>
+                         </p>
+                         <p><i class="fas fa-bolt"></i><span>From</span><span>€244,00
+                         </span><span>/night</span></p>
+                    </div>
+                </div></div>
+
+
+                <div class="col-md-4"><div class="hotelrightimage-text">
+                    <div class="image">
+                        <img class="img-fluid" src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/63380673-680x630.jpg" alt="">
+                        <div class="image-header"><div class="row"><div class="col-md-5"><p>Featured</p></div><div class="col-md-3">  <i class="fas fa-heart"></i></div></div>
+                        </div>
+                        <div class="image-footer">
+                         <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    
+                        </div>
+                        
+                    </div>
+                    <div class="hotelright-text">
+                        <a href="#">EnVision Hotel Boston</a>
+                        <p><i class="fas fa-map-marker-alt"></i>Boston, MA, USA</p>
+                        <p><span style="color: #19A1E5;"> 3.7/5 Very Good</span>|
+                         <span>3 Reviews</span>
+                         </p>
+                         <p><i class="fas fa-bolt"></i><span>From</span><span>€244,00
+                         </span><span>/night</span></p>
+                    </div>
+                </div></div>
+
+
+
+                <div class="col-md-4"><div class="hotelrightimage-text">
+                    <div class="image">
+                        <img class="img-fluid" src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/84514008-680x630.jpg" alt="">
+                        <div class="image-header"><div class="row"><div class="col-md-5"><p>Featured</p></div><div class="col-md-3">  <i class="fas fa-heart"></i></div></div>
+                        </div>
+                        <div class="image-footer">
+                         <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    
+                        </div>
+                        
+                    </div>
+                    <div class="hotelright-text">
+                        <a href="#">EnVision Hotel Boston</a>
+                        <p><i class="fas fa-map-marker-alt"></i>Boston, MA, USA</p>
+                        <p><span style="color: #19A1E5;"> 3.7/5 Very Good</span>|
+                         <span>3 Reviews</span>
+                         </p>
+                         <p><i class="fas fa-bolt"></i><span>From</span><span>€244,00
+                         </span><span>/night</span></p>
+                    </div>
+                </div></div>
+
+
+                <div class="col-md-4"><div class="hotelrightimage-text">
+                    <div class="image">
+                        <img class="img-fluid" src="https://mixmap.travelerwp.com/wp-content/uploads/2017/06/36758163-680x630.jpg" alt="">
+                        <div class="image-header"><div class="row"><div class="col-md-5"><p>Featured</p></div><div class="col-md-3">  <i class="fas fa-heart"></i></div></div>
+                        </div>
+                        <div class="image-footer">
+                         <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    
+                        </div>
+                        
+                    </div>
+                    <div class="hotelright-text">
+                        <a href="#">EnVision Hotel Boston</a>
+                        <p><i class="fas fa-map-marker-alt"></i>Boston, MA, USA</p>
+                        <p><span style="color: #19A1E5;"> 3.7/5 Very Good</span>|
+                         <span>3 Reviews</span>
+                         </p>
+                         <p><i class="fas fa-bolt"></i><span>From</span><span>€244,00
+                         </span><span>/night</span></p>
+                    </div>
+                </div></div>
+
+
+
+                <div class="col-md-4"><div class="hotelrightimage-text">
+                    <div class="image">
+                        <img class="img-fluid" src="https://mixmap.travelerwp.com/wp-content/uploads/2017/06/79746510-680x630.jpg" alt="">
+                        <div class="image-header"><div class="row"><div class="col-md-5"><p>Featured</p></div><div class="col-md-3">  <i class="fas fa-heart"></i></div></div>
+                        </div>
+                        <div class="image-footer">
+                         <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    
+                        </div>
+                        
+                    </div>
+                    <div class="hotelright-text">
+                        <a href="#">EnVision Hotel Boston</a>
+                        <p><i class="fas fa-map-marker-alt"></i>Boston, MA, USA</p>
+                        <p><span style="color: #19A1E5;"> 3.7/5 Very Good</span>|
+                         <span>3 Reviews</span>
+                         </p>
+                         <p><i class="fas fa-bolt"></i><span>From</span><span>€244,00
+                         </span><span>/night</span></p>
+                    </div>
+                </div></div>
+
+
+
+
+                <div class="col-md-4"><div class="hotelrightimage-text">
+                    <div class="image">
+                        <img class="img-fluid" src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/137313636-680x630.jpg" alt="">
+                        <div class="image-header"><div class="row"><div class="col-md-5"><p>Featured</p></div><div class="col-md-3">  <i class="fas fa-heart"></i></div></div>
+                        </div>
+                        <div class="image-footer">
+                         <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    
+                        </div>
+                        
+                    </div>
+                    <div class="hotelright-text">
+                        <a href="#">EnVision Hotel Boston</a>
+                        <p><i class="fas fa-map-marker-alt"></i>Boston, MA, USA</p>
+                        <p><span style="color: #19A1E5;"> 3.7/5 Very Good</span>|
+                         <span>3 Reviews</span>
+                         </p>
+                         <p><i class="fas fa-bolt"></i><span>From</span><span>€244,00
+                         </span><span>/night</span></p>
+                    </div>
+                </div></div>
+
+
+                <div class="col-md-4"><div class="hotelrightimage-text">
+                    <div class="image">
+                        <img class="img-fluid" src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/93585266-680x630.jpg" alt="">
+                        <div class="image-header"><div class="row"><div class="col-md-5"><p>Featured</p></div><div class="col-md-3">  <i class="fas fa-heart"></i></div></div>
+                        </div>
+                        <div class="image-footer">
+                         <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    
+                        </div>
+                        
+                    </div>
+                    <div class="hotelright-text">
+                        <a href="#">EnVision Hotel Boston</a>
+                        <p><i class="fas fa-map-marker-alt"></i>Boston, MA, USA</p>
+                        <p><span style="color: #19A1E5;"> 3.7/5 Very Good</span>|
+                         <span>3 Reviews</span>
+                         </p>
+                         <p><i class="fas fa-bolt"></i><span>From</span><span>€244,00
+                         </span><span>/night</span></p>
+                    </div>
+                </div></div>
+
+
+                <div class="col-md-4"><div class="hotelrightimage-text">
+                    <div class="image">
+                        <img class="img-fluid" src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/574581_17042015570052514529-680x630.jpg" alt="">
+                        <div class="image-header"><div class="row"><div class="col-md-5"><p>Featured</p></div><div class="col-md-3">  <i class="fas fa-heart"></i></div></div>
+                        </div>
+                        <div class="image-footer">
+                         <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    
+                        </div>
+                        
+                    </div>
+                    <div class="hotelright-text">
+                        <a href="#">EnVision Hotel Boston</a>
+                        <p><i class="fas fa-map-marker-alt"></i>Boston, MA, USA</p>
+                        <p><span style="color: #19A1E5;"> 3.7/5 Very Good</span>|
+                         <span>3 Reviews</span>
+                         </p>
+                         <p><i class="fas fa-bolt"></i><span>From</span><span>€244,00
+                         </span><span>/night</span></p>
+                    </div>
+                </div></div>
+
+
+
+                <div class="col-md-4"><div class="hotelrightimage-text">
+                    <div class="image">
+                        <img class="img-fluid" src="https://mixmap.travelerwp.com/wp-content/uploads/2014/12/154186667-680x630.jpg" alt="">
+                        <div class="image-header"><div class="row"><div class="col-md-5"><p>Featured</p></div><div class="col-md-3">  <i class="fas fa-heart"></i></div></div>
+                        </div>
+                        <div class="image-footer">
+                         <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    
+                        </div>
+                        
+                    </div>
+                    <div class="hotelright-text">
+                        <a href="#">EnVision Hotel Boston</a>
+                        <p><i class="fas fa-map-marker-alt"></i>Boston, MA, USA</p>
+                        <p><span style="color: #19A1E5;"> 3.7/5 Very Good</span>|
+                         <span>3 Reviews</span>
+                         </p>
+                         <p><i class="fas fa-bolt"></i><span>From</span><span>€244,00
+                         </span><span>/night</span></p>
+                    </div>
+                </div></div>
+
+
+                
+                
+               </div>
+           </div>
+        
+    </div>
+  
+
+
+
+
+
+
+
+
+
+    <div id="emailArea">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="emailIco">
+                        <div class="emailDiv">
+                            <img src="img/ico_email_subscribe.svg" alt="">
+                        </div>
+                        <div class="emailText">
+                            <h3>Get Updates & More</h3>
+                            <p>Thoughtful thoughts to your inbox</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="inputDiv">
+                        <input type="text" placeholder="Your Email">
+                        <button class="btn btn-blue">
+                            SUBCRIBE
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+
+                    <div class="footer-head">
+                        <p>NEED HELP?</p>
+                        <hr>
+                    </div>
+
+                    <div class="footer-call-us">
+                        <p>Call Us</p>
+                        <h5>+ 00 222 44 5678</h5>
+                    </div>
+
+                    <div class="footer-call-us">
+                        <p>Email for Us</p>
+                        <h5>hello@yoursite.com</h5>
+                    </div>
+
+                    <div class="footer-call-us">
+                        <p>Follow Us</p>
+                        <span>
+                            <i class="fab fa-facebook-f"></i>
+                        </span>
+                        <span>
+                            <i class="fab fa-twitter"></i>
+                        </span>
+                        <span>
+                            <i class="fab fa-instagram"></i>
+                        </span>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-head">
+                        <p>COMPANY</p>
+                        <hr>
+                    </div>
+                    <div class="footer-company">
+
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Community Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Rewards</a>
+                        </li>
+                        <li>
+                            <a href="#">Work with Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Meet the Team</a>
+                        </li>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-head">
+                        <p>SUPPORT</p>
+                        <hr>
+                    </div>
+                    <div class="footer-company">
+
+                        <li>
+                            <a href="#">Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Legal</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Affiliate Program</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-head">
+                        <p>SETTING</p>
+                        <hr>
+                    </div>
+                    <div class="footer-company">
+                        <p>Currencies</p>
+                        <select name="" id="">
+                            <option value="">EUR</option>
+                            <option value="">USE</option>
+                            <option value="">AZN</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="rowada">
+                <div class="sub-footer">
+                    <div class="footer-left">
+                        Copyright © 2020 by <a href="#">Traveler Theme</a>
+                    </div>
+                    <div class="footer-right">
+                        <img src="img/ico_paymethod.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Sanan kodlari end -->
+
+    <script src="jquery/jquery-3.4.1.min.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="vendors/js/main.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

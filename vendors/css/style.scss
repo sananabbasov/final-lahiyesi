@@ -1073,6 +1073,185 @@ span{
 
 
 
+/* Yasin Deisng ( Otel rezervatin ) */
+
+
+.sort{
+    li{
+        list-style: none;
+
+    }
+    .drop-menu{position: relative;
+        
+        .dropped-menu{position: absolute;
+            box-shadow: 0 6px 12px rgba(0,0,0,.175);
+            border-radius: 5px;
+            display: none;
+        left: -40px;
+        li{
+            
+            a{
+                color: #1A2B48;
+                text-decoration: none;
+            }
+            margin-left:-10px;
+            margin-right: 10px;
+            padding-top: -5px;
+            p{margin: -1px 0;}
+        }
+      
+        }
+    }
+    
+}
+.hotelleft-right{
+    .hotelrightimage-text{
+        .image{overflow: hidden;
+            transition: .3s;
+            &:hover{img{transform: scale(1.1);
+            transition: .3s;}}
+
+            position: relative;z-index: 9898;
+            .image-header{p{position: relative;
+                top: -220px;
+                left: 0px;
+            z-index: 989;
+        padding: 1px 3px;
+    background-color: #19A1E5;}
+    i{
+        position: relative;
+                top: -220px;
+                right:-110px;
+                color: white;
+                font-size: 22px;
+        
+
+
+    }
+
+            }
+            .image-footer{
+               i{
+                   position: relative;
+                   top: -72px;
+                   left: 10px;
+                   color: #FA5636;
+               }
+
+            }
+
+        }
+        .hotelright-text{
+            a{
+                position: relative;
+                top: -60px;
+            }
+            P{
+                position: relative;
+                top: -60PX;
+            }
+        }
+        
+    }
+    .filter-price{
+        padding: 5px 15px;
+        border: 1px solid #D7DCE3;
+        position: relative;
+        i{position: absolute;
+            top: 17px;
+            left: 220px;
+
+        }
+        .active-filter{
+            display: none;
+    }
+        }
+        .review-score{
+            padding: 15px;
+            border: 1px solid #D7DCE3;
+            position: relative;
+            i{position: absolute;
+                top: 17px;
+                left: 220px;
+    
+            }
+            .active-review{
+                display: none;
+            }
+            
+        }
+        .hotel-star{
+            padding: 15px;
+            border: 1px solid #D7DCE3;
+            position: relative;
+            .open{i{position: absolute;
+                top: 17px;
+                left: 220px;
+    
+            }}
+            .star{display: none;
+                i{font-size: 14px;
+                
+            color: #FA5636;}
+            }
+        }
+
+       .facilities{
+        padding: 15px;
+        border: 1px solid #D7DCE3;
+        position: relative;
+        i{position: absolute;
+            top: 17px;
+            left: 220px;}
+            p{
+                color:gray ;
+            }
+            .active-facilities{display: none;
+                .facilities-down{
+                    i{
+                        position: absolute;
+                        top: 178px;
+                        font-size: 20px;
+                    }
+                }
+            }
+
+
+
+
+       }
+
+       .hotel-theme{
+        padding: 15px;
+        border: 1px solid #D7DCE3;
+        position: relative;
+        i{position: absolute;
+            top: 17px;
+            left: 220px;}
+            p{
+                color:gray ;
+            }
+            .active-hotel{display: none;
+                .facilities-down{
+                    i{
+                        position: absolute;
+                        top: 178px;
+                        font-size: 20px;
+                    }
+                }
+
+            }
+           
+       }
+    }
+
+
+
+/**/
+
+
+
+
 @media only screen and (max-width: 600px) {
 
     header #top-header {
